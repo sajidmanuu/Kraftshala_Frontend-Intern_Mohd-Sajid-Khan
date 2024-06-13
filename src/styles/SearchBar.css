@@ -1,0 +1,45 @@
+/* src/styles/SearchBar.css */
+.search-bar {
+    margin-bottom: 20px;
+    width: 40vw;
+    margin: auto;
+    color: #fff;
+  }
+  .search-bar input{
+    background: rgba(255, 255, 255, 0.1);  /* Light translucent background */
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* Subtle border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    backdrop-filter: blur(10px);  /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+  }
+  .search-bar input:focus{
+    background: rgba(255, 255, 255, 0.1);  /* Light translucent background */
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* Subtle border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    backdrop-filter: blur(10px);  /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+  }
+  .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    /* margin-right: 30vw; */
+    /* margin-left: 30vw; */
+  }
+  
+  .search-bar button {
+    padding: 2px;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 1vw;
+    background: rgba(255, 255, 255, 0.1);  /* Light translucent background */
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* Subtle border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    backdrop-filter: blur(10px);  /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
